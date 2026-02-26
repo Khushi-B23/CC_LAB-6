@@ -26,7 +26,7 @@ pipeline {
                 
                 docker run -d \
                   --name nginx-lb \
-                  --network app-network \
+                  --network lab-network \
                   -p 80:80 \
                   nginx
                 
